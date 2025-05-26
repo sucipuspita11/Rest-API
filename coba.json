@@ -1,0 +1,15 @@
+    {
+        "nama":"Suci Puspita Sari",
+        "umur": 21,
+        "nim" :"2217020043",
+        "jurusan" :"sistem informasi",
+        "lulus" : true,
+        "hobby" : [
+            "bernyanyi","ngoding"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "Haditya",
+            "pembimbing2" : "Ozzy Secio Roza"
+        }
+    }
+       
