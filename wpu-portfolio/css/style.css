@@ -16,11 +16,12 @@ footer {
 }
 
 .ig-thumbnail{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     float: left;
     overflow: hidden;
 }
 .ig-thumbnail img{
-    width: 200px;
+    width: 100px;
 }
+
