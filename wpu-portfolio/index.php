@@ -13,7 +13,7 @@ function get_CURL($url)
 
 $result = get_CURL('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCysWzX3yksEex2u7QyU5Cqg&key=AIzaSyDTVaf_yGhKmjJ-qOipC9cOvqgO7itLvSI');
 
-$youtubeProfilPic = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
+$youtubeProfilePic = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $channelName = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
@@ -87,10 +87,10 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
         </div>
         <div class="row justify-content-center">
           <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
+            <p>Hello! I'm Suci Puspita Sari. I was born on December 11, 2004, and I'm from Pesisir Selatan, Indonesia. I'm the youngest of five siblings. Currently, I'm studying Information Systems at UIN Imam Bonjol Padang, and I'm in my sixth semester. I'm very interested in technology and always eager to learn new things in the world of information systems. Nice to meet you.</p>
           </div>
           <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
+            <p> In my free time, I enjoy reading, exploring new software and technology, and watching educational or inspiring content online. I also love expressing my creativity through writing and simple graphic design. These hobbies not only help me relax but also support my passion for learning and growing in the field of information systems.</p>
           </div>
         </div>
       </div>
@@ -130,7 +130,7 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
           <div class="col-md-5">
             <div class="row">
               <div class="col-md-4 ">
-                <img src="<?=$profilPictureIG; ?>" width="200" class="rounded-circle img-thumbnail">
+                <img src="<?=$profilePictureIG; ?>" width="200" class="rounded-circle img-thumbnail">
               </div>
               <div class="col-md-8">
                   <h5><?=$usernameIG ?></h5>
@@ -163,7 +163,7 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
         <div class="row">
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
+              <img class="card-img-top" src="img/me.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -172,7 +172,7 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/2.png" alt="Card image cap">
+              <img class="card-img-top" src="img/akulagi.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -181,7 +181,7 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/3.png" alt="Card image cap">
+              <img class="card-img-top" src="img/WhatsApp.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -192,7 +192,7 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
         <div class="row">
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/4.png" alt="Card image cap">
+              <img class="card-img-top" src="img/family.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -200,7 +200,7 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
           </div> 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/5.png" alt="Card image cap">
+              <img class="card-img-top" src="img/sister.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
@@ -210,7 +210,7 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/6.png" alt="Card image cap">
+              <img class="card-img-top" src="img/forum.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -235,15 +235,15 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
             <div class="card bg-primary text-white mb-4 text-center">
               <div class="card-body">
                 <h5 class="card-title">Contact Me</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Thank you for taking the time to learn more about me! If you have any questions, collaboration opportunities, or simply want to connect, feel free to reach out. I’m always open to new ideas, discussions, and opportunities to grow. Let’s stay in touch.</p>
               </div>
             </div>
             
             <ul class="list-group mb-4">
               <li class="list-group-item"><h3>Location</h3></li>
               <li class="list-group-item">My Office</li>
-              <li class="list-group-item">Jl. Setiabudhi No. 193, Bandung</li>
-              <li class="list-group-item">West Java, Indonesia</li>
+              <li class="list-group-item">Padang, Sumatra Barat</li>
+              <li class="list-group-item">Indonesia</li>
             </ul>
           </div>
 
